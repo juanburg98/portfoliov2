@@ -1,0 +1,8 @@
+---
+const { emoji, content } = Astro.props;
+---
+
+<div class="flex flex-row items-center bg-title rounded-3xl py-1 px-1 gap-2">
+    <span class="bg-celeste rounded-2xl py-1 px-2">{emoji}</span>
+    <p class="text-texto text-sm tracking-tight">{content}</p>
+</div>
