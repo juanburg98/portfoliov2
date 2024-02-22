@@ -1,14 +1,17 @@
 ---
 import Status from '../Status.astro'
+import PrincipalTitle from '../PrincipalTitle.astro'
+import Paragraph from '../Paragraph.astro'
 ---
 <section id="home">
     <div class="flex justify-center">
         <Status emoji="🧠😃" content="I'm currently studying" />
     </div>
-    <iv class="flex flex-row justify-center">
+    <div class="flex flex-row justify-center">
+        <PrincipalTitle title="Juan Burgueño" subtitle="Front-End Developer" />
     </div>
     <div class="flex justify-center">
-        <p>
+        <Paragraph>
             I'm from Canelones, Uruguay and I'm 25 years old, I focus on design
             and user experience seeking a usable, inclusive and accessible
             result for all people, along with clean, scalable and optimized
@@ -16,6 +19,6 @@ import Status from '../Status.astro'
             commitment to the team and critical thinking. I like to keep up to
             date with new technologies continuously learning both as a
             programmer and as a person.
-        </p>
+        </Paragraph>
     </div>
 </section>
