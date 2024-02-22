@@ -2,7 +2,9 @@
 const { emoji, content } = Astro.props;
 ---
 
-<div class="flex flex-row items-center bg-title rounded-3xl py-1 px-1 gap-2">
-    <span class="bg-celeste rounded-2xl py-1 px-2">{emoji}</span>
-    <p class="text-texto text-sm tracking-tight">{content}</p>
+<div
+  class="flex flex-row items-center gap-1 rounded-3xl bg-quaternary px-1 py-0 shadow-sm"
+>
+  <span class="rounded-2xl bg-sextenary px-1 py-0">{emoji}</span>
+  <p class="text-sm font-normal tracking-text text-secondary">{content}</p>
 </div>

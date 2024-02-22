@@ -2,7 +2,11 @@
 const { title, subtitle } = Astro.props;
 ---
 
-<div>
-    <h1 class="text-7xl font-extrabold tracking-tighter">{title}</h1>
-    <p class="">{subtitle}</p>
+<div class="flex flex-col items-center">
+  <h1 class="font-serif text-4xl font-extrabold tracking-title text-primary">
+    {title}
+  </h1>
+  <p class="font-serif text-lg font-medium tracking-text text-primary">
+    {subtitle}
+  </p>
 </div>
