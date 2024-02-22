@@ -23,6 +23,9 @@ export default {
         title: "-0.80px",
         text: "-0.2px",
       },
+      padding: {
+        0: "2px",
+      },
     },
   },
   plugins: [],
