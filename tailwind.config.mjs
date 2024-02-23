@@ -6,15 +6,18 @@ export default {
     extend: {
       fontFamily: {
         sans: ["Inter", ...defaultTheme.fontFamily.sans],
-        serif: ['"Playfair Display", sans serif'],
+        serif: '"Source Code Pro", monospace',
       },
       colors: {
-        primary: "#171717", // title
-        secondary: "#666666", // text
-        tertiary: "#fafafa", // bg
-        quaternary: "#ebebeb", // hover
-        quinary: "#fcfcf7", // hover
+        primary: "#ededed", // title
+        secondary: "#a1a1a1", // text
+        tertiary: "#000000", // bg
+        quaternary: "#ffffff", // hover
         sextenary: "#0070f3", // detail
+        window1: "#ff5f56",
+        window2: "#ffbd2e",
+        window3: "#27c93f",
+        borderWindow: "#333333",
       },
       borderWidth: {
         1: "1px",
