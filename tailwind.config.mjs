@@ -13,6 +13,7 @@ export default {
         secondary: "#a1a1a1", // text
         tertiary: "#000000", // bg
         quaternary: "#ffffff", // hover
+        quinary: "#0a0a0a",
         sextenary: "#0070f3", // detail
         window1: "#ff5f56",
         window2: "#ffbd2e",
