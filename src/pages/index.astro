@@ -1,14 +1,18 @@
 ---
 import Layout from "../layouts/Layout.astro";
-import Home from "../components/sections/Home.astro";
-import Toolbox from "../components/sections/Toolbox.astro";
-import Projects from "../components/sections/Projects.astro";
+import Footer from "../sections/Footer.astro";
+import Home from "../sections/Home.astro";
+import Projects from "../sections/Projects.astro";
+import Skills from "../sections/Skills.astro";
 ---
 
 <Layout title="Juan Burgueño | Front-End Developer">
   <main>
     <Home />
-    <Toolbox />
+    <Skills />
     <Projects />
   </main>
+  <footer>
+    <Footer />
+  </footer>
 </Layout>

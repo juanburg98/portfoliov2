@@ -44,17 +44,17 @@ const ogUrl = "";
     <meta name="og:locale" content="es_UY" />
   </head>
   <body>
-    <slot />
+    <div class="mx-auto max-w-6xl px-6">
+      <slot />
+    </div>
   </body>
 </html>
 
-<style>
+<style is:global>
   @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap");
   html {
     font-family: "Inter", sans-serif;
     scroll-behavior: smooth;
-  }
-  body {
-    background-color: #000000;
+    background-color: #000;
   }
 </style>
