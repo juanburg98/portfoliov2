@@ -1,12 +1,12 @@
+---
+import TerminalButtons from "../components/TerminalButtons.astro";
+---
+
 <section class="m-1 flex border-collapse flex-col items-center pt-32">
   <div
     class="flex h-10 w-[920px] flex-row items-center rounded-t-md border-1 border-borderWindow"
   >
-    <div class="flex flex-row items-center justify-start gap-3 pl-4">
-      <div class="h-4 w-4 rounded-full bg-window1"></div>
-      <div class="h-4 w-4 rounded-full bg-window2"></div>
-      <div class="h-4 w-4 rounded-full bg-window3"></div>
-    </div>
+    <TerminalButtons />
   </div>
   <div
     class="h-[401px] w-[920px] rounded-b-md border-1 border-t-0 border-borderWindow"
