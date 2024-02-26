@@ -4,19 +4,15 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        serif: '"Source Code Pro", monospace',
+        mono: '"Montserrat", sans-serif',
       },
       colors: {
         primary: "#ededed", // title
         secondary: "#a1a1a1", // text
-        tertiary: "#000000", // bg
+        tertiary: "#333333", // borders
         quaternary: "#ffffff", // hover
-        quinary: "#0a0a0a",
-        sextenary: "#0070f3", // detail
-        window1: "#ff5f56",
-        window2: "#ffbd2e",
-        window3: "#27c93f",
-        borderWindow: "#333333",
+        quinary: "#0a0a0a", // text
+        sixtenary: "#0070f3", // detail
       },
       borderWidth: {
         1: "1px",
@@ -27,6 +23,9 @@ export default {
       },
       padding: {
         0: "2px",
+      },
+      width: {
+        100: "650px",
       },
     },
   },
